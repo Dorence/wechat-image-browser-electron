@@ -1,0 +1,18 @@
+/* styles.css */
+/* @import 'node_modules/bootstrap/dist/css/bootstrap.min.css' */
+
+/* app navbar */
+#app>.nav>.nav-link {
+  background-color: var(--bs-gray-300);
+  border-radius: 0;
+  color: var(--bs-gray-600);
+  letter-spacing: .05em;
+  min-height: 64px;
+  min-width: 10em;
+}
+
+#app>.nav>.nav-link.active {
+  background-color: var(--bs-white);
+  border-left: 5px solid var(--bs-gray-600);
+  color: var(--bs-body-color);
+}

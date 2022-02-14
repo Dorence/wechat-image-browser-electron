@@ -1,0 +1,35 @@
+{
+  "name": "wechat-image-browser-election",
+  "version": "0.1.0",
+  "author": "Dorence DENG",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "electron": "cross-env NODE_ENV=development electron .",
+    "vite": "cross-env NODE_ENV=development vite",
+    "dev": "concurrently -k --raw \"yarn vite\" \"yarn electron\"",
+    "build": "cross-env NODE_ENV=production vite build"
+  },
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "dependencies": {
+    "@vicons/fa": "^0.12.0",
+    "bootstrap": "^5.1.3",
+    "core-js-pure": "^3.21.0",
+    "naive-ui": "^2.25.2",
+    "ramda": "^0.28.0",
+    "sass": "^1.49.7",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "concurrently": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^17.0.0",
+    "vite": "^2.8.2"
+  }
+}
